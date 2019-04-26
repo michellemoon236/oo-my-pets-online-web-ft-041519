@@ -8,33 +8,37 @@ class Owner
   
   #Instance methods
   def species
-      initializes with a species (FAILED - 19)
-      can't change its species (FAILED - 20)
+      #initializes with a species (FAILED - 19)
+      #can't change its species (FAILED - 20)
+  end
+  
   def say_species
-      can say its species (FAILED - 21)
+      #can say its species (FAILED - 21)
+  end
+  
   def name
-      can have a name (FAILED - 22)
+      #can have a name (FAILED - 22)
   def pets
-      is initialized with a pets attribute as a hash with 3 keys (FAILED - 23)
+      #is initialized with a pets attribute as a hash with 3 keys (FAILED - 23)
   def buy_fish
-      can buy a fish that is an instance of the Fish class (FAILED - 24)
-      knows about its fishes (FAILED - 25)
+      #can buy a fish that is an instance of the Fish class (FAILED - 24)
+      #knows about its fishes (FAILED - 25)
   def buy_cat
-      can buy a cat that is an instance of the Cat class (FAILED - 26)
-      knows about its cats (FAILED - 27)
+      #can buy a cat that is an instance of the Cat class (FAILED - 26)
+      #knows about its cats (FAILED - 27)
   def buy_dog
-      can buy a dog that is an instance of the Dog class (FAILED - 28)
-      knows about its dogs (FAILED - 29)
+      #can buy a dog that is an instance of the Dog class (FAILED - 28)
+      #knows about its dogs (FAILED - 29)
   def walk_dogs
-      walks the dogs which makes the dogs' moods happy (FAILED - 30)
+      #walks the dogs which makes the dogs' moods happy (FAILED - 30)
   def play_with_cats
-      plays with the cats which makes the cats moods happy (FAILED - 31)
+      #plays with the cats which makes the cats moods happy (FAILED - 31)
   def feed_fish
-      feeds the fishes which makes the fishes' moods happy (FAILED - 32)
-    #sell_pets
-      can sell all its pets, which make them nervous (FAILED - 33)
-    #list_pets
-      can list off its pets (FAILED - 34)
+      #feeds the fishes which makes the fishes' moods happy (FAILED - 32)
+  def sell_pets
+      #can sell all its pets, which make them nervous (FAILED - 33)
+  def list_pets
+      #can list off its pets (FAILED - 34)
 
 
 end
