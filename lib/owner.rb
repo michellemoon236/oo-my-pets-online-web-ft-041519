@@ -67,7 +67,7 @@ class Owner
   end
   
   def walk_dogs
-    #binding.pry
+    binding.pry
       #walks the dogs which makes the dogs' moods happy (FAILED - 30)
     @dogs.mood = "happy"
   end
