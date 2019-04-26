@@ -48,7 +48,7 @@ class Owner
     #can buy a fish that is an instance of the Fish class (FAILED - 24)
     #knows about its fishes (FAILED - 25)
     fish = Fish.new(name)
-    @pets[@fishes] << fish
+    @pets[:fishes] << fish
   end
   
   def buy_cat
