@@ -51,18 +51,18 @@ class Owner
     @pets[:fishes] << fish
   end
   
-  def buy_cat
+  def buy_cat(name)
     #can buy a cat that is an instance of the Cat class (FAILED - 26)
     #knows about its cats (FAILED - 27)
-    cat = Cat.new
-    @cats << cat 
+    cat = Cat.new(name)
+    @pets[:cats] << cat 
   end
   
-  def buy_dog
+  def buy_dog(name)
     #can buy a dog that is an instance of the Dog class (FAILED - 28)
     #knows about its dogs (FAILED - 29)
-    dog = Dog.new 
-    @dogs << dog
+    dog = Dog.new(name) 
+    @pets[@dogs] << dog
       
   end
   
