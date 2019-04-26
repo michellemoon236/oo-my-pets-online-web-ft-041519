@@ -61,14 +61,14 @@ class Owner
   def buy_dog(name)
     #can buy a dog that is an instance of the Dog class (FAILED - 28)
     #knows about its dogs (FAILED - 29)
-    dog = Dog.new(name) 
-    @pets[:dogs] << dog
+    @dog = Dog.new(name) 
+    @pets[:dogs] << @dog
       
   end
   
   def walk_dogs
       #walks the dogs which makes the dogs' moods happy (FAILED - 30)
-    Dog.mood = "happy"
+    @dog.mood = "happy"
   end
   
   def play_with_cats
