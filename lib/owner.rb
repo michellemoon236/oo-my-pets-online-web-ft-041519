@@ -19,17 +19,17 @@ class Owner
   def buy_fish
       can buy a fish that is an instance of the Fish class (FAILED - 24)
       knows about its fishes (FAILED - 25)
-    #buy_cat
+  def buy_cat
       can buy a cat that is an instance of the Cat class (FAILED - 26)
       knows about its cats (FAILED - 27)
-    #buy_dog
+  def buy_dog
       can buy a dog that is an instance of the Dog class (FAILED - 28)
       knows about its dogs (FAILED - 29)
-    #walk_dogs
+  def walk_dogs
       walks the dogs which makes the dogs' moods happy (FAILED - 30)
-    #play_with_cats
+  def play_with_cats
       plays with the cats which makes the cats moods happy (FAILED - 31)
-    #feed_fish
+  def feed_fish
       feeds the fishes which makes the fishes' moods happy (FAILED - 32)
     #sell_pets
       can sell all its pets, which make them nervous (FAILED - 33)
