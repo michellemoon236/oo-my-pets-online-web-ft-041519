@@ -90,6 +90,17 @@ class Owner
   
   def sell_pets
       #can sell all its pets, which make them nervous (FAILED - 33)
+    @pets[:cats].collect do |cat|
+      cat.mood = "nervous"
+    end
+    
+    @pets[:dogs].collect do |dog|
+      dog.mood = "nervous"
+    end
+    
+    @pets[:fishes].collect do |fish|
+      fish.mood = "nervous"
+    end
     @pets.clear
   end
   
