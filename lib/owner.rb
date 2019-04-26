@@ -35,7 +35,7 @@ class Owner
     @pets[:dogs] = []
     @pets[:cats] = []
     @pets[:fishes] = []
-    binding.pry
+    #binding.pry
   end 
   
   
