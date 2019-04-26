@@ -6,6 +6,7 @@ class Owner
   attr_reader :species, :dogs, :cats, :fishes
   
   @@all = []
+  
   #Class methods
   
   def self.all
@@ -40,7 +41,7 @@ class Owner
   
   
   def say_species
-      #can say its species (FAILED - 21)
+    #can say its species (FAILED - 21)
     "I am a #{@species}."
   end
   
@@ -68,28 +69,28 @@ class Owner
   
   def walk_dogs
     #binding.pry
-      #walks the dogs which makes the dogs' moods happy (FAILED - 30)
+    #walks the dogs which makes the dogs' moods happy (FAILED - 30)
     @pets[:dogs].collect do |dog|
       dog.mood = "happy"
     end
   end
   
   def play_with_cats
-      #plays with the cats which makes the cats moods happy (FAILED - 31)
+    #plays with the cats which makes the cats moods happy (FAILED - 31)
     @pets[:cats].collect do |cat|
       cat.mood = "happy"
     end
   end
   
   def feed_fish
-      #feeds the fishes which makes the fishes' moods happy (FAILED - 32)
+    #feeds the fishes which makes the fishes' moods happy (FAILED - 32)
     @pets[:fishes].collect do |fish|
       fish.mood = "happy"
     end
   end
   
   def sell_pets
-      #can sell all its pets, which make them nervous (FAILED - 33)
+    #can sell all its pets, which make them nervous (FAILED - 33)
     @pets[:cats].collect do |cat|
       cat.mood = "nervous"
     end
