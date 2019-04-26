@@ -11,8 +11,9 @@ class Owner
     @species = species
     @pets = {}
     @pets[@dogs] = []
-      #is initialized with a pets attribute as a hash with 3 keys (FAILED - 23)
-      #initializes with a species (FAILED - 19)
+    @pets[@cats] = []
+    @pets[@fish] = []
+
   end 
   def species
 
