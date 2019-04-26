@@ -37,6 +37,7 @@ class Owner
   
   def say_species
       #can say its species (FAILED - 21)
+    "I am a #{@species}."
   end
   
   def buy_fish
@@ -78,6 +79,7 @@ class Owner
   
   def sell_pets
       #can sell all its pets, which make them nervous (FAILED - 33)
+    @pets.clear
   end
   
   def list_pets
