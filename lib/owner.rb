@@ -68,7 +68,7 @@ class Owner
   
   def walk_dogs
       #walks the dogs which makes the dogs' moods happy (FAILED - 30)
-    @dog.mood = "happy"
+    @dogs.mood = "happy"
   end
   
   def play_with_cats
