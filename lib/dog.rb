@@ -9,5 +9,5 @@ class Dog
     @mood = "nervous"
   end
   
-  binding.pry
+  #binding.pry
 end
