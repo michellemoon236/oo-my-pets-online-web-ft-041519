@@ -76,12 +76,16 @@ class Owner
   
   def play_with_cats
       #plays with the cats which makes the cats moods happy (FAILED - 31)
-    Cat.mood = "happy"
+    @pets[:cats].collect do |cat|
+      cat.mood = "happy"
+    end
   end
   
   def feed_fish
       #feeds the fishes which makes the fishes' moods happy (FAILED - 32)
-    Fish.mood = "happy"
+    @pets[:fishes].collect do |fish|
+      fish.mood = "happy"
+    end
   end
   
   def sell_pets
