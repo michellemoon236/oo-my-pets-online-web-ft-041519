@@ -43,7 +43,7 @@ class Owner
     "I am a #{@species}."
   end
   
-  def buy_fish
+  def buy_fish(name)
     #can buy a fish that is an instance of the Fish class (FAILED - 24)
     #knows about its fishes (FAILED - 25)
     fish = Fish.new(name)
