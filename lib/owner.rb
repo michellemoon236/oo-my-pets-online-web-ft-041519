@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
 
   attr_accessor :name
@@ -29,6 +31,7 @@ class Owner
     @species = species
     @@all << self
     @pets = {}
+    binding.pry
     @pets[@dogs] = []
     @pets[@cats] = []
     @pets[@fishes] = []
