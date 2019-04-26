@@ -27,11 +27,11 @@ class Owner
   
   def initialize(species)
     #is initialized with a pets attribute as a hash with 3 keys (FAILED - 23)
-    #initializes with a species (FAILED - 19)   @species = species
+    #initializes with a species (FAILED - 19)
     @species = species
     @@all << self
     @pets = {}
-    #binding.pry
+    binding.pry
     @pets[@dogs] = []
     @pets[@cats] = []
     @pets[@fishes] = []
