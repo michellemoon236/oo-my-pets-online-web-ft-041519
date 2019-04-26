@@ -63,7 +63,7 @@ class Owner
     #knows about its dogs (FAILED - 29)
     @dog = Dog.new(name) 
     @pets[:dogs] << @dog
-    binding.pry   
+    #binding.pry   
   end
   
   def walk_dogs
