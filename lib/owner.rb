@@ -32,9 +32,9 @@ class Owner
     @@all << self
     @pets = {}
     #binding.pry
-    @pets[:dogs] = []
-    @pets[:cats] = []
-    @pets[:fishes] = []
+    @pets[@dogs] = []
+    @pets[@cats] = []
+    @pets[@fishes] = []
   end 
   
   
