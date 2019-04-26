@@ -31,7 +31,7 @@ class Owner
     @species = species
     @@all << self
     @pets = {}
-    binding.pry
+    #binding.pry
     @pets[@dogs] = []
     @pets[@cats] = []
     @pets[@fishes] = []
