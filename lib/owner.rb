@@ -1,4 +1,4 @@
-require 'pry'
+exitrequire 'pry'
 
 class Owner
 
