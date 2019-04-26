@@ -62,7 +62,7 @@ class Owner
     #can buy a dog that is an instance of the Dog class (FAILED - 28)
     #knows about its dogs (FAILED - 29)
     dog = Dog.new(name) 
-    @pets[@dogs] << dog
+    @pets[:dogs] << dog
       
   end
   
