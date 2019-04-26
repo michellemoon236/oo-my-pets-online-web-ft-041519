@@ -67,6 +67,7 @@ class Owner
   end
   
   def walk_dogs
+    binding.pry
       #walks the dogs which makes the dogs' moods happy (FAILED - 30)
     @dogs.mood = "happy"
   end
@@ -78,7 +79,7 @@ class Owner
   
   def feed_fish
       #feeds the fishes which makes the fishes' moods happy (FAILED - 32)
-    Fish.modd = "happy"
+    Fish.mood = "happy"
   end
   
   def sell_pets
